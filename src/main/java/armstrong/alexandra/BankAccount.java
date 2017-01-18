@@ -1,5 +1,7 @@
 package armstrong.alexandra;
 
+import java.io.*;
+
 import static armstrong.alexandra.Status.*;
 import static armstrong.alexandra.AccountType.*;
 import static armstrong.alexandra.Overdraft.*;
@@ -85,12 +87,14 @@ public class BankAccount {
             if (overdraft == ENABLED) {
                 if (amount > 0 || amount > getBalance()) {
                     balance += amount;
+                    writeToFileChangeBalance();
                     return "Balance adjusted";
                 } else {
                     return "Insufficient Funds";
                 }
             } else {
                 balance += amount;
+                writeToFileChangeBalance();
                 return "Balance adjusted";
             }
         } else {
@@ -136,6 +140,22 @@ public class BankAccount {
             return "Account frozen";
         }
     }
+
+    public void writeToFileChangeBalance() {
+        try {
+            PrintStream print = new PrintStream(new BufferedOutputStream(new FileOutputStream("BankAccount.txt", true)));
+            print.println("Balance Changed to " + balance + ".");
+            print.close();
+        } catch (IOException e) {
+        }
+    }
+
+    public void writeToFileChangeStatus(){}
+
+    public void writeToFileChangeName(){}
+
+    public void writeToFileChangeInterestRate(){}
+
 }
 
 

@@ -223,4 +223,11 @@ public class BankAccountTest {
         String actual = ba.changeFreezeStatus();
         assertEquals(expected, actual);
     }
+
+    @Test
+    public void writeToFileChangeBalanceTest(){
+        ba = new BankAccount(SAVINGS, "Alex Armstrong");
+        ba.changeBalance(40);
+        ba.changeBalance( -20);
+    }
 }
