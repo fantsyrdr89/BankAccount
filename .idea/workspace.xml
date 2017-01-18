@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="99f3b76e-8dbf-40d5-a15d-0c514e2d06b2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BankAccount.txt" afterPath="$PROJECT_DIR$/BankAccount.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/armstrong/alexandra/BankAccount.java" afterPath="$PROJECT_DIR$/src/main/java/armstrong/alexandra/BankAccount.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/armstrong/alexandra/BankAccountTest.java" afterPath="$PROJECT_DIR$/src/test/java/armstrong/alexandra/BankAccountTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,45 +16,6 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file leaf-file-name="BankAccountTest.java" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/test/java/armstrong/alexandra/BankAccountTest.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="503">
-                    <caret line="234" column="34" lean-forward="false" selection-start-line="234" selection-start-column="34" selection-end-line="234" selection-end-column="34" />
-                    <folding>
-                      <element signature="imports" expanded="true" />
-                      <element signature="method#constructorTest1#0;class#BankAccountTest#0" expanded="false" />
-                      <element signature="method#constructorTest2#0;class#BankAccountTest#0" expanded="false" />
-                      <element signature="method#constructorTest3#0;class#BankAccountTest#0" expanded="false" />
-                      <element signature="method#constructorTest4#0;class#BankAccountTest#0" expanded="false" />
-                      <element signature="method#constructorTest5#0;class#BankAccountTest#0" expanded="false" />
-                      <element signature="method#constructorTest6#0;class#BankAccountTest#0" expanded="false" />
-                      <element signature="method#constructorTest7#0;class#BankAccountTest#0" expanded="false" />
-                      <element signature="method#constructorTest8#0;class#BankAccountTest#0" expanded="false" />
-                      <element signature="method#constructorTest9#0;class#BankAccountTest#0" expanded="false" />
-                      <element signature="method#constructorTest10#0;class#BankAccountTest#0" expanded="false" />
-                      <element signature="method#constructorTest11#0;class#BankAccountTest#0" expanded="false" />
-                      <element signature="method#constructorTest12#0;class#BankAccountTest#0" expanded="false" />
-                      <element signature="method#getBalanceTest#0;class#BankAccountTest#0" expanded="false" />
-                      <element signature="method#changeBalanceTest#0;class#BankAccountTest#0" expanded="false" />
-                      <element signature="method#changeBalanceTest2#0;class#BankAccountTest#0" expanded="false" />
-                      <element signature="method#TransferFromTest1#0;class#BankAccountTest#0" expanded="false" />
-                      <element signature="method#TransferFromTest2#0;class#BankAccountTest#0" expanded="false" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
@@ -74,8 +33,8 @@
       <file leaf-file-name="BankAccount.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/armstrong/alexandra/BankAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="110" column="13" lean-forward="false" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
+            <state relative-caret-position="314">
+              <caret line="191" column="0" lean-forward="true" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#BankAccount#0;class#BankAccount#0" expanded="false" />
@@ -155,8 +114,8 @@
         <option value="$PROJECT_DIR$/src/main/java/armstrong/alexandra/Status.java" />
         <option value="$PROJECT_DIR$/src/main/java/armstrong/alexandra/Overdraft.java" />
         <option value="$PROJECT_DIR$/src/main/java/armstrong/alexandra/AccountType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/armstrong/alexandra/BankAccount.java" />
         <option value="$PROJECT_DIR$/src/test/java/armstrong/alexandra/BankAccountTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/armstrong/alexandra/BankAccount.java" />
       </list>
     </option>
   </component>
@@ -174,8 +133,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="4" />
     <option name="y" value="22" />
-    <option name="width" value="1280" />
+    <option name="width" value="1276" />
     <option name="height" value="584" />
   </component>
   <component name="ProjectView">
@@ -193,8 +153,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -294,6 +252,8 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -846,7 +806,8 @@
       <option name="presentableId" value="Default" />
       <updated>1484673958096</updated>
       <workItem from="1484673959750" duration="13605000" />
-      <workItem from="1484750960779" duration="490000" />
+      <workItem from="1484750960779" duration="667000" />
+      <workItem from="1484751726486" duration="850000" />
     </task>
     <servers />
   </component>
@@ -883,28 +844,27 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14095000" />
+    <option name="totallyTimeSpent" value="15122000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="584" extended-state="0" />
+    <frame x="4" y="22" width="1276" height="584" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32427186" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852563" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32427186" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32427186" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12460815" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -916,6 +876,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32427186" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -937,6 +898,64 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/armstrong/alexandra/BankAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#BankAccount#0;class#BankAccount#0" expanded="false" />
+            <element signature="method#BankAccount#1;class#BankAccount#0" expanded="false" />
+            <element signature="method#BankAccount#2;class#BankAccount#0" expanded="false" />
+            <element signature="method#BankAccount#3;class#BankAccount#0" expanded="false" />
+            <element signature="method#getBalance#0;class#BankAccount#0" expanded="false" />
+            <element signature="method#setInterestRate#0;class#BankAccount#0" expanded="false" />
+            <element signature="method#setStatus#0;class#BankAccount#0" expanded="false" />
+            <element signature="method#changeBalance#0;class#BankAccount#0" expanded="false" />
+            <element signature="method#transferMoneyToOtherAccount#0;class#BankAccount#0" expanded="false" />
+            <element signature="method#setAccountHolderName#0;class#BankAccount#0" expanded="false" />
+            <element signature="method#closeAccount#0;class#BankAccount#0" expanded="false" />
+            <element signature="method#changeFreezeStatus#0;class#BankAccount#0" expanded="false" />
+            <element signature="method#writeToFileChangeBalance#0;class#BankAccount#0" expanded="false" />
+            <element signature="method#writeToFileChangeStatus#0;class#BankAccount#0" expanded="false" />
+            <element signature="method#writeToFileChangeName#0;class#BankAccount#0" expanded="false" />
+            <element signature="method#writeToFileChangeInterestRate#0;class#BankAccount#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/armstrong/alexandra/AccountType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="73" lean-forward="false" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/armstrong/alexandra/Status.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/armstrong/alexandra/Overdraft.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="51" lean-forward="false" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1030,8 +1049,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/armstrong/alexandra/BankAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="110" column="13" lean-forward="false" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
+        <state relative-caret-position="314">
+          <caret line="191" column="0" lean-forward="true" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#BankAccount#0;class#BankAccount#0" expanded="false" />

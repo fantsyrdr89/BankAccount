@@ -78,12 +78,16 @@ public class BankAccount {
         return overdraft;
     }
 
+    public void setOverdraft(Overdraft overdraft){
+        this.overdraft = overdraft;
+    }
+
     public void setInterestRate(double interestRate){
         this.interestRate = interestRate;
         writeToFileChangeInterestRate();
     }
 
-    void setStatus(Status status){
+    protected void setStatus(Status status){
         this.status = status;
         writeToFileChangeStatus();
     }
@@ -148,7 +152,7 @@ public class BankAccount {
         }
     }
 
-    public void writeToFileChangeBalance() {
+    private void writeToFileChangeBalance() {
         try {
             PrintStream print = new PrintStream(new BufferedOutputStream(new FileOutputStream("BankAccount.txt", true)));
             print.println("Balance Changed to " + balance + ".");
@@ -157,7 +161,7 @@ public class BankAccount {
         }
     }
 
-    public void writeToFileChangeStatus(){
+    private void writeToFileChangeStatus(){
         try {
             PrintStream print = new PrintStream(new BufferedOutputStream(new FileOutputStream("BankAccount.txt", true)));
             print.println("Status changed to " + status + ".");
@@ -166,7 +170,7 @@ public class BankAccount {
         }
     }
 
-    public void writeToFileChangeName(){
+    private void writeToFileChangeName(){
         try {
             PrintStream print = new PrintStream(new BufferedOutputStream(new FileOutputStream("BankAccount.txt", true)));
             print.println("Name changed to " + accountHolderName + ".");
@@ -175,7 +179,7 @@ public class BankAccount {
         }
     }
 
-    public void writeToFileChangeInterestRate(){
+    private void writeToFileChangeInterestRate(){
         try {
             PrintStream print = new PrintStream(new BufferedOutputStream(new FileOutputStream("BankAccount.txt", true)));
             print.println("Interest rate changed to " + interestRate + ".");
