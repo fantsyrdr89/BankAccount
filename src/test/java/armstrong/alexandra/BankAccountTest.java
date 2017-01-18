@@ -225,9 +225,13 @@ public class BankAccountTest {
     }
 
     @Test
-    public void writeToFileChangeBalanceTest(){
+    public void writeToFileTest(){
         ba = new BankAccount(SAVINGS, "Alex Armstrong");
         ba.changeBalance(40);
         ba.changeBalance( -20);
+        ba.setStatus(CLOSED);
+        ba.setStatus(OPEN);
+        ba.setAccountHolderName("Alexandra Armstrong");
+        ba.setInterestRate(1.04d);
     }
 }

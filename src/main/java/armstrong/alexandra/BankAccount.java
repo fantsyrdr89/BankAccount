@@ -78,8 +78,14 @@ public class BankAccount {
         return overdraft;
     }
 
+    public void setInterestRate(double interestRate){
+        this.interestRate = interestRate;
+        writeToFileChangeInterestRate();
+    }
+
     void setStatus(Status status){
         this.status = status;
+        writeToFileChangeStatus();
     }
 
     public String changeBalance(double amount) {
@@ -119,6 +125,7 @@ public class BankAccount {
     public void setAccountHolderName(String name){
         if(status != CLOSED){
             this.accountHolderName = name;
+            writeToFileChangeName();
         }
     }
 
@@ -150,11 +157,32 @@ public class BankAccount {
         }
     }
 
-    public void writeToFileChangeStatus(){}
+    public void writeToFileChangeStatus(){
+        try {
+            PrintStream print = new PrintStream(new BufferedOutputStream(new FileOutputStream("BankAccount.txt", true)));
+            print.println("Status changed to " + status + ".");
+            print.close();
+        } catch (IOException e) {
+        }
+    }
 
-    public void writeToFileChangeName(){}
+    public void writeToFileChangeName(){
+        try {
+            PrintStream print = new PrintStream(new BufferedOutputStream(new FileOutputStream("BankAccount.txt", true)));
+            print.println("Name changed to " + accountHolderName + ".");
+            print.close();
+        } catch (IOException e) {
+        }
+    }
 
-    public void writeToFileChangeInterestRate(){}
+    public void writeToFileChangeInterestRate(){
+        try {
+            PrintStream print = new PrintStream(new BufferedOutputStream(new FileOutputStream("BankAccount.txt", true)));
+            print.println("Interest rate changed to " + interestRate + ".");
+            print.close();
+        } catch (IOException e) {
+        }
+    }
 
 }
 
